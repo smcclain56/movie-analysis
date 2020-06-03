@@ -11,5 +11,5 @@ The files are divided into the following packages:
 - util - The util package contains all other classes that are necessary including a data loader file that reads in and parses the MovieLens data. This package also includes a priority queue file. 
 
 # Credits
-My professor, America Chambers, supplied the data and util packages (minus the priority queue implementation) as started code for this assignment. This was also a pair programming assignment in which I worked with my classmate, Gennie Cheatham.
+My professor, America Chambers, supplied the data and util packages (minus the priority queue implementation) as starter code for this assignment. This was also a pair programming assignment in which I worked with my classmate, Gennie Cheatham.
 
