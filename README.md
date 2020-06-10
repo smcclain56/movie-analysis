@@ -7,10 +7,16 @@ The program gives the user 2 choices for defining adjacency in the graph. Once t
 The files are divided into the following packages:
 - analyzer - The analyzer package contains the main controller class for this assignment. This class contains a main method that builds the graph and allows the user to explore the graph
 - data - The data package contains two classes for storing the MovieLens data: Movie.java and Reviewer.java. 
-- graph - The graph package contains all classes that relate to graphs. This includes a graph class that implements a Graph interface and a Graph algorithms class which implements Dijkstra's algorithm and the Floyd-Warshall algorithm
+- graph - The graph package contains all classes that relate to graphs. This includes a graph class that implements a Graph interface and a Graph algorithms class which implements Dijkstra's algorithm and the Floyd-Warshall algorithm.
 - util - The util package contains all other classes that are necessary including a data loader file that reads in and parses the MovieLens data. This package also includes a priority queue file. 
 
-# Example Session
+The text-based interface allows the user to interact with the graph created using the data directory. Once the graph is created, the user is given four different options. 
+1. **Option 1:** Print out statistics about the graph. This includes the number of nodes, number of edges, density of the graph, maximum degree, diameter (using the Floyd-Warshall algorithm), and the average length of the shortest path (using the Floyd-Warshall algorithm).
+2. **Option 1:** Print node information. This asks the user to enter the movie id they want data on and then prints the title, the number of ratings, the genre, and a list of all it's neighbors in the graph. 
+3. **Option 1:** Display shortest path between two nodes. This asks the user to enter the movie id of the start and end node they want to find the path between. The program then prints the shortest path from the start node to the end node, using Dijkstra's algorithm.
+4. **Option 1:** Quit. This option exits the program.
+
+# Example
 <pre>
 ========================= Welcome to MoveLens Analyzer ==================
 The files being analyzed are: 
